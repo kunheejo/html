@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function kkk(a,b) {
+            if(a>0){
+                if(b>0){
+                    return 1;
+                }else if(b<0){
+                    return 4;
+                }
+            }else if(a<0) {
+                if(b>0){
+                    return 2;
+                }else if(b<0){
+                    return 3;
+                }
+            }
+        }
+
+
+
+        var c = kkk(-1,2);
+        alert(c+ " 사분면에 위치합니다");
+
+
+
+        function aaa(a) {
+            switch (a) {
+                case "장원영":
+                 return "예쁘다.";
+                 break;
+             case "전지현":
+                 return "잠잔다." ;
+                 break;
+            
+                default:
+                    break; 
+            }
+        }
+        var c = aaa("장원영");
+        alert(c);
+
+    </script>
+</html>
